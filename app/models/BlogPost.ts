@@ -1,30 +1,30 @@
 export class BlogPost {
-    private _url: string;
-    private _title: string;
-    private _description: string;
-    private _image: string;
+    private url: string;
+    private title: string;
+    private description: string;
+    private image: string;
   
     constructor(url: string, title: string, description: string, image: string) {
-      this._url = url;
-      this._title = title;
-      this._description = description;
-      this._image = image;
+      this.url = url;
+      this.title = title;
+      this.description = description;
+      this.image = image;
     }
   
     // Getter methods for accessing the private properties
-    get url(): string {
+    get _url(): string {
       return this._url;
     }
   
-    get title(): string {
+    get _title(): string {
       return this._title;
     }
   
-    get description(): string {
+    get _description(): string {
       return this._description;
     }
   
-    get image(): string {
+    get _image(): string {
       return this._image;
     }
   }
