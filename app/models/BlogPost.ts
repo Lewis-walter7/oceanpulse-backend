@@ -1,14 +1,14 @@
 export class BlogPost {
-  private image: string;
-  private url: string;
-  private description: string;
   private title: string;
+  private image: string;
+  private description: string;
+  private url: string;
   
   constructor(url: string, title: string, description: string, image: string) {
+    this.title = title;
     this.image = image;
+    this.description = description;
     this.url = url;
-      this.description = description;
-      this.title = title;
     }
   
     // Getter methods for accessing the private properties
