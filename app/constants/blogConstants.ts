@@ -19,7 +19,12 @@ export function createBlogPosts(): BlogPost[] {
             "Plastic Accumulating in Lake Tahoe",
             "Researchers completing the first dive survey",
             "https://cdn-fhofj.nitrocdn.com/YLARnxovRxHnoSTcLUnkvhePKVxPqkls/assets/images/optimized/rev-dfb2699/www.ecowatch.com/wp-content/uploads/2024/01/zephyr-cove.jpg",
-
+        ),
+        new BlogPost(
+            "https://www.ecowatch.com/spain-beaches-plastic-pellets.html",
+            "Millions of Plastic Pellets Wash Up on Beaches in Spain",
+            "Plastic pellets found washed up on a beach in Galicia",
+            "https://cdn-fhofj.nitrocdn.com/YLARnxovRxHnoSTcLUnkvhePKVxPqkls/assets/images/optimized/rev-dfb2699/www.ecowatch.com/wp-content/uploads/2024/01/plastic-pellets-beach-spain.jpg"
         )
     ];
 
