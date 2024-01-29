@@ -43,7 +43,6 @@ export class BlogPost {
         'Description for Blog Post 2',
         'https://example.com/images/post2.jpg'
       ),
-      // Add more instances as needed
     ];
   
     return blogPosts;
