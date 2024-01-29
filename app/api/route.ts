@@ -1,4 +1,6 @@
+import { createBlogPosts } from "../models/BlogPost"
+
 export async function GET() {
-    const response = "Hey, how are you"
+    const response = createBlogPosts()
     return Response.json({response})
 }
