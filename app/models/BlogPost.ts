@@ -13,36 +13,36 @@ export class BlogPost {
   
     // Getter methods for accessing the private properties
     get _url(): string {
-      return this._url;
+      return this.url;
     }
   
     get _title(): string {
-      return this._title;
+      return this.title;
     }
   
     get _description(): string {
-      return this._description;
+      return this.description;
     }
   
     get _image(): string {
-      return this._image;
+      return this.image;
     }
   }
 
   export function createBlogPosts(): BlogPost[] {
     const blogPosts: BlogPost[] = [
       new BlogPost(
-        'https://example.com/post1',
-        'Blog Post 1',
-        'Description for Blog Post 1',
-        'https://example.com/images/post1.jpg'
-      ),
-      new BlogPost(
-        'https://example.com/post2',
-        'Blog Post 2',
-        'Description for Blog Post 2',
-        'https://example.com/images/post2.jpg'
-      ),
+        "Marine life and ocean threats",
+        "https://cdn-fhofj.nitrocdn.com/YLARnxovRxHnoSTcLUnkvhePKVxPqkls/assets/images/optimized/rev-dfb2699/www.ecowatch.com/wp-content/uploads/2022/10/sea-turtle-101.jpg",
+        "Everything you need to know",
+        "https://www.ecowatch.com/marine-life-ocean-threats.html"
+    ),
+    new BlogPost(
+        "Accumulation of microplastics",
+        "https://cdn-fhofj.nitrocdn.com/YLARnxovRxHnoSTcLUnkvhePKVxPqkls/assets/images/optimized/rev-dfb2699/www.ecowatch.com/wp-content/uploads/2024/01/galapagos-penguins.jpg",
+        "Food Chain of Endangered Galápagos Penguins",
+        "https://www.ecowatch.com/microplastics-galapagos-penguins.html"
+    ),
     ];
   
     return blogPosts;
